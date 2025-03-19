@@ -13,5 +13,11 @@ use App\Http\Middleware\LogAcessoMiddleware;
 |
 */
 
-Route::get('/', [App\Http\Controllers\Principal::class, 'principal']);
+Route::get('/', [App\Http\Controllers\Inicio::class, 'inicio'])->name("pagina-inicial");
+Route::get('/adocao', [App\Http\Controllers\Adocao::class, 'adocao'])->name("adocao");
+Route::get('/detalhesAnimal', [App\Http\Controllers\DetalhesAnimal::class, 'detalhesAnimal'])->name("detalhes-animal");
+Route::get('/listar-animais', [App\Http\Controllers\ListarAnimais::class, 'listarAnimais'])->name("listar-animais");
+Route::get('/login', [App\Http\Controllers\Login::class, 'login'])->name("pagina-login");
+Route::get('/registro', [App\Http\Controllers\inicio::class, 'login'])->name("pagina-login");
+
 

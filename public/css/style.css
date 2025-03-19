@@ -1,0 +1,80 @@
+body {
+    background-color: #D6D58E; /* Cor de fundo suave */
+    color: #042940; /* Cor do texto principal */
+}
+.navbar, .footer {
+    background-color: #005C53; /* Cor de fundo da navegação e rodapé */
+}
+.btn-primary {
+    background-color: #9FC131; /* Cor dos botões principais */
+    border-color: #9FC131;
+}
+.btn-primary:hover {
+    background-color: #DBF227; /* Cor dos botões ao passar o mouse */
+    border-color: #DBF227;
+}
+.jumbotron {
+    background-color: #042940; /* Cor de fundo do cabeçalho */
+    color: #DBF227; /* Cor do texto do cabeçalho */
+}
+
+body {
+    background-color: #D6D58E; /* Cor de fundo suave */
+    color: #042940; /* Cor do texto principal */
+}
+.navbar, .footer {
+    background-color: #005C53; /* Cor de fundo da navegação e rodapé */
+}
+.btn-primary {
+    background-color: #9FC131; /* Cor dos botões principais */
+    border-color: #9FC131;
+}
+.btn-primary:hover {
+    background-color: #DBF227; /* Cor dos botões ao passar o mouse */
+    border-color: #DBF227;
+}
+.animal-details {
+    background-color: #FFFFFF; /* Fundo branco para a seção de detalhes */
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.animal-details img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.animal-details h2 {
+    color: #042940; /* Cor do título */
+}
+.animal-details p {
+    color: #005C53; /* Cor do texto */
+}
+body {
+    background-color: #D6D58E; /* Cor de fundo suave */
+    color: #042940; /* Cor do texto principal */
+}
+.navbar, .footer {
+    background-color: #005C53; /* Cor de fundo da navegação e rodapé */
+}
+.btn-primary {
+    background-color: #9FC131; /* Cor dos botões principais */
+    border-color: #9FC131;
+}
+.btn-primary:hover {
+    background-color: #DBF227; /* Cor dos botões ao passar o mouse */
+    border-color: #DBF227;
+}
+.form-container {
+    background-color: #FFFFFF; /* Fundo branco para o formulário */
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.form-label {
+    color: #005C53; /* Cor do texto dos labels */
+}
+.form-control:focus {
+    border-color: #005C53; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(0, 92, 83, 0.5);
+}
