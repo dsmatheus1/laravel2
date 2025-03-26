@@ -16,7 +16,7 @@
                         <a class="nav-link" href="#">Adotar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contatoo</a>
+                        <a class="nav-link" href="#">Contato</a>
                     </li>
                 </ul>
             </div>
