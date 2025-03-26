@@ -78,3 +78,44 @@ body {
     border-color: #005C53; /* Cor da borda ao focar */
     box-shadow: 0 0 5px rgba(0, 92, 83, 0.5);
 }
+
+.register-container {
+    background-color: #FFFFFF; /* Fundo branco para o formulário */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+.register-container h2 {
+    color: #042940; /* Cor do título */
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.btn-primary {
+    background-color: #9FC131; /* Cor do botão */
+    border-color: #9FC131;
+    width: 100%;
+}
+.btn-primary:hover {
+    background-color: #DBF227; /* Cor do botão ao passar o mouse */
+    border-color: #DBF227;
+}
+.form-control:focus {
+    border-color: #005C53; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(0, 92, 83, 0.5);
+}
+.form-label {
+    color: #005C53; /* Cor do texto dos labels */
+}
+.login-link {
+    text-align: center;
+    margin-top: 1rem;
+}
+.login-link a {
+    color: #005C53; /* Cor do link de login */
+    text-decoration: none;
+}
+.login-link a:hover {
+    text-decoration: underline;
+}
