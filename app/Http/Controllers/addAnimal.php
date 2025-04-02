@@ -3,22 +3,22 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Usuario; 
+use App\Models\Animal; 
 
 class Registro extends Controller
 {
     function registro(){
-        return view("registro");
+        return view("adAnimal");
 
     }
 
-    function criarConta(Request $request){
+    function addAnimal(Request $request){
          //   dd($request->all());
 
-            $usuario = new Usuario();
+            $usuario = new Animal();
             $usuario->create($request->all());
 
-            return view('registro');
+            return view('addAnimal');
     }
 
 }

@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('usuario', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('Nome_Completo' , 255);
+            $table->string('nome_completo' , 255);
             $table->string('email' , 255);
             $table->string('senha' , 255);
 
