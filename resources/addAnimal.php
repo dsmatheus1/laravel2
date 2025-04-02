@@ -18,7 +18,7 @@
                 <input name="cor" type="email" class="form-control" id="email" placeholder="Digite seu email" required>
             </div>
             <div class="mb-3">
-                <label for="name" class="form-label">Nome </label>
+                <label for="name" class="form-label">Nome matheus </label>
                 <input name="peso" type="text" class="form-control" id="name" placeholder="Digite seu nome completo" required>
             </div>
             <!-- Campo de Email -->
